@@ -66,7 +66,7 @@ public class Sets {
         palabras.add("Pera");
         palabras.add("Celular");
         palabras.add("Laptop");
-        palabras.add("Celular");
+        palabras.add("celular");
         palabras.add("Celulas");
 
         return palabras;
