@@ -35,3 +35,5 @@ Para ejecutar el proyecto:
 
 ## 🧑‍💻 Evidencias
 ![alt text](image.png)
+
+![alt text](image-1.png)
