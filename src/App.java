@@ -1,6 +1,7 @@
 import java.util.Set;
 
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -17,7 +18,9 @@ public class App {
         //System.out.println();
         //runTreeSetComparatorPer(sets);
 
-        ContactoController cc = new ContactoController();
+        //ContactoController cc = new ContactoController();
+
+        Ejercicios ej = new Ejercicios();
     }
 
     public static void runHasHashSet(Sets sets) {
