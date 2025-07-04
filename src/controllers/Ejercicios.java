@@ -58,6 +58,7 @@ public class Ejercicios {
     }
 
     public void compararTextos(String t1, String t2) {
+        System.out.println("Ejercicios");
         Set<String> words1 = obtenerPalabras(t1);
         System.err.println("Texto 1: " + words1.size());
         Set<String> words2 = obtenerPalabras(t2);
@@ -70,8 +71,8 @@ public class Ejercicios {
         System.out.println("Cuantas palabras comunes: " + both.size());
         System.out.println("Coincidencia lexica: " + ((both.size()*100.0)/total.size())+"%");
 
-        words1.removeAll(words2);
-        words2.removeAll(words1);
+        words1.removeAll(obtenerPalabras(t2));
+        words2.removeAll(obtenerPalabras(t1));
 
         System.out.println("Solor texto 1: " + words1);
         System.out.println("Solor texto 2: " + words2);
